@@ -1,0 +1,14 @@
+C:\Users\olli9\VSC\kodehode\JSONSerializer\bin\Debug\net8.0\JSONSerializer.exe
+C:\Users\olli9\VSC\kodehode\JSONSerializer\bin\Debug\net8.0\JSONSerializer.deps.json
+C:\Users\olli9\VSC\kodehode\JSONSerializer\bin\Debug\net8.0\JSONSerializer.runtimeconfig.json
+C:\Users\olli9\VSC\kodehode\JSONSerializer\bin\Debug\net8.0\JSONSerializer.dll
+C:\Users\olli9\VSC\kodehode\JSONSerializer\bin\Debug\net8.0\JSONSerializer.pdb
+C:\Users\olli9\VSC\kodehode\JSONSerializer\obj\Debug\net8.0\JSONSerializer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olli9\VSC\kodehode\JSONSerializer\obj\Debug\net8.0\JSONSerializer.AssemblyInfoInputs.cache
+C:\Users\olli9\VSC\kodehode\JSONSerializer\obj\Debug\net8.0\JSONSerializer.AssemblyInfo.cs
+C:\Users\olli9\VSC\kodehode\JSONSerializer\obj\Debug\net8.0\JSONSerializer.csproj.CoreCompileInputs.cache
+C:\Users\olli9\VSC\kodehode\JSONSerializer\obj\Debug\net8.0\JSONSerializer.dll
+C:\Users\olli9\VSC\kodehode\JSONSerializer\obj\Debug\net8.0\refint\JSONSerializer.dll
+C:\Users\olli9\VSC\kodehode\JSONSerializer\obj\Debug\net8.0\JSONSerializer.pdb
+C:\Users\olli9\VSC\kodehode\JSONSerializer\obj\Debug\net8.0\JSONSerializer.genruntimeconfig.cache
+C:\Users\olli9\VSC\kodehode\JSONSerializer\obj\Debug\net8.0\ref\JSONSerializer.dll
