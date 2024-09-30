@@ -1,4 +1,5 @@
 ﻿using System.Linq.Expressions;
+using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 using System.Text.Json;
 
@@ -11,6 +12,16 @@ class Program
         try
         {
         
+            string filePath = "Person.json";
+            List<Person>? people = new List<Person>();
+            if(File.Exists(filePath))
+            {
+                string existingJSON = File.ReadAllText(filePath);
+                if(!String.IsNullOrWhiteSpace(existingJSON))
+                {
+                    people = JsonSerializer.Deserialize<List<Person>>(existingJSON);
+                }
+            }
         
             Console.WriteLine("Hello, you!");
 
@@ -31,20 +42,21 @@ class Program
             
             Console.WriteLine("What City are you from?");
             string? CityInput = Console.ReadLine();
-            var person = new Person
+            var newPerson = new Person
             {
                 Name = NameInput,
                 Age = AgeInputInt,
                 City = CityInput
                 
             };
-            Console.WriteLine($"Name: {person.Name}");
-            Console.WriteLine($"Age: {person.Age}");
-            Console.WriteLine($"City: {person.City}");
+            people.Add(newPerson);
+            
+            Console.WriteLine($"Name: {newPerson.Name}");
+            Console.WriteLine($"Age: {newPerson.Age}");
+            Console.WriteLine($"City: {newPerson.City}");
 
-            string json = JsonSerializer.Serialize(person, new JsonSerializerOptions {WriteIndented = true});
+            string json = JsonSerializer.Serialize(newPerson, new JsonSerializerOptions {WriteIndented = true});
 
-            string filePath = "Person.json";
             File.WriteAllText(filePath, json);
 
             Console.WriteLine("data written to json");

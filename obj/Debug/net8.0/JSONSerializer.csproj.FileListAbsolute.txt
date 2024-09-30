@@ -12,3 +12,4 @@ C:\Users\olli9\VSC\kodehode\JSONSerializer\obj\Debug\net8.0\refint\JSONSerialize
 C:\Users\olli9\VSC\kodehode\JSONSerializer\obj\Debug\net8.0\JSONSerializer.pdb
 C:\Users\olli9\VSC\kodehode\JSONSerializer\obj\Debug\net8.0\JSONSerializer.genruntimeconfig.cache
 C:\Users\olli9\VSC\kodehode\JSONSerializer\obj\Debug\net8.0\ref\JSONSerializer.dll
+C:\Users\olli9\VSC\kodehode\JSONSerializer\obj\Debug\net8.0\JSONSerializer.sourcelink.json
