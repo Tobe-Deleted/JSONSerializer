@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\olli9\\.nuget\\packages\\": {}
+    "C:\\Users\\Olive\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\olli9\\VSC\\kodehode\\JSONSerializer\\JSONSerializer.csproj",
+      "projectUniqueName": "C:\\Users\\Olive\\Documents\\kodehode\\JSONSerializer\\JSONSerializer.csproj",
       "projectName": "JSONSerializer",
-      "projectPath": "C:\\Users\\olli9\\VSC\\kodehode\\JSONSerializer\\JSONSerializer.csproj",
-      "packagesPath": "C:\\Users\\olli9\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\olli9\\VSC\\kodehode\\JSONSerializer\\obj\\",
+      "projectPath": "C:\\Users\\Olive\\Documents\\kodehode\\JSONSerializer\\JSONSerializer.csproj",
+      "packagesPath": "C:\\Users\\Olive\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Olive\\Documents\\kodehode\\JSONSerializer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\olli9\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Olive\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

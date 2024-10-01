@@ -1,6 +1,6 @@
-﻿using System.Linq.Expressions;
-using System.Runtime.CompilerServices;
-using System.Security.Cryptography;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Text.Json;
 
 namespace JSONSerializer;
@@ -13,13 +13,14 @@ class Program
         {
         
             string filePath = "Person.json";
-            List<Person>? people = new List<Person>();
+            List<Person> people = new List<Person>();
             if(File.Exists(filePath))
             {
                 string existingJSON = File.ReadAllText(filePath);
+                Console.WriteLine($"Existing JSON: {existingJSON}"); // Debug line
                 if(!String.IsNullOrWhiteSpace(existingJSON))
                 {
-                    people = JsonSerializer.Deserialize<List<Person>>(existingJSON);
+                    people = JsonSerializer.Deserialize<List<Person>>(existingJSON) ?? new List<Person>();
                 }
             }
         
@@ -55,12 +56,13 @@ class Program
             Console.WriteLine($"Age: {newPerson.Age}");
             Console.WriteLine($"City: {newPerson.City}");
 
-            string json = JsonSerializer.Serialize(newPerson, new JsonSerializerOptions {WriteIndented = true});
+            string json = JsonSerializer.Serialize(people, new JsonSerializerOptions {WriteIndented = true});
 
             File.WriteAllText(filePath, json);
 
             Console.WriteLine("data written to json");
-        }    
+        }
+            
         catch(IOException exception)
         {
             Console.WriteLine($"Cannot write to Person.json; {exception.Message}");

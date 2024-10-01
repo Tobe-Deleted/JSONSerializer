@@ -1,7 +1,12 @@
 [
   {
+    "Name": "Petter",
+    "Age": 40,
+    "City": "Bod\u00F8"
+  },
+  {
     "Name": "Even",
-    "Age": 98,
-    "City": "Kautokeino"
+    "Age": 20,
+    "City": "Oslo"
   }
 ]
